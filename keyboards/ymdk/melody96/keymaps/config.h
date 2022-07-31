@@ -39,6 +39,9 @@
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
 
+/* Force NKRO doe be enabled by default. Magic key to disable till next keyboard reset. */
+#define FORCE_NKRO
+
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 #define LOCKING_SUPPORT_ENABLE
 
